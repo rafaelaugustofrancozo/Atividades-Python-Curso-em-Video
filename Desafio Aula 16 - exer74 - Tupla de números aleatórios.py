@@ -1,0 +1,12 @@
+from random import randint
+num1 = randint(0,100)
+num2 = randint(0,100)
+num3 = randint(0,100)
+num4 = randint(0,100)
+num5 = randint(0,100)
+tupla = (num1, num2, num3, num4, num5)
+print(f'A tupla é: {tupla}')
+print(f'Menor valor: {sorted(tupla)[0]}')
+print(f'Maior valor: {sorted(tupla)[4]}')
+print('Maior valor: {}'.format(sorted(tupla)[4]))
+print('Maior valor: %d' %sorted(tupla)[4])
